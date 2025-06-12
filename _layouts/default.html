@@ -3,92 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}Eugene O'Sullivan</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
     
     <!-- Feed -->
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
-<body class="min-h-screen flex flex-col">
-    <header class="bg-white shadow-sm">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex">
-                    <a href="{{ '/' | relative_url }}" class="flex items-center">
-                        <span class="text-xl font-bold text-primary-600">{{ site.title }}</span>
-                    </a>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <a href="{{ '/blog' | relative_url }}" class="text-secondary-600 hover:text-primary-600">Blog</a>
-                    <a href="{{ '/portfolio' | relative_url }}" class="text-secondary-600 hover:text-primary-600">Portfolio</a>
-                    <a href="{{ '/playground' | relative_url }}" class="text-secondary-600 hover:text-primary-600">Playground</a>
-                    <a href="{{ '/about' | relative_url }}" class="text-secondary-600 hover:text-primary-600">About</a>
-                </div>
+<body class="min-h-screen flex flex-col bg-white text-gray-900">
+    <header class="site-header sticky top-0 z-10 bg-white border-b border-gray-200 shadow-sm">
+        <div class="nav-container container mx-auto px-4 flex justify-between items-center">
+            <div class="nav-brand">
+                <a href="/" class="text-2xl font-bold text-primary-700">Eugene O'Sullivan</a>
             </div>
-        </nav>
+            <nav class="nav-links hidden md:flex gap-6">
+                <a href="/" class="{% if page.url == '/' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Home</a>
+                <a href="/blog" class="{% if page.url contains '/blog' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Blog</a>
+                <a href="/portfolio" class="{% if page.url contains '/portfolio' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Portfolio</a>
+                <a href="/playground" class="{% if page.url contains '/playground' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Playground</a>
+            </nav>
+            <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-500" aria-label="Menu">
+                <div class="w-6 h-6 flex flex-col justify-center items-center">
+                    <span class="block w-6 h-0.5 bg-gray-600 mb-1 transition-transform duration-300"></span>
+                    <span class="block w-6 h-0.5 bg-gray-600 mb-1 transition-opacity duration-300"></span>
+                    <span class="block w-6 h-0.5 bg-gray-600 transition-transform duration-300"></span>
+                </div>
+            </button>
+        </div>
+        <div class="mobile-menu hidden md:hidden bg-white border-b border-gray-200">
+            <nav class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+                <a href="/" class="{% if page.url == '/' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Home</a>
+                <a href="/blog" class="{% if page.url contains '/blog' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Blog</a>
+                <a href="/portfolio" class="{% if page.url contains '/portfolio' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Portfolio</a>
+                <a href="/playground" class="{% if page.url contains '/playground' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Playground</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="flex-grow">
+    <main class="flex-grow container mx-auto px-4 py-8">
         {{ content }}
     </main>
 
-    <footer class="bg-secondary-50 border-t border-secondary-200">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-sm font-semibold text-secondary-600 tracking-wider uppercase">About</h3>
-                    <p class="mt-4 text-base text-secondary-500">
-                        {{ site.description }}
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-sm font-semibold text-secondary-600 tracking-wider uppercase">Quick Links</h3>
-                    <ul class="mt-4 space-y-4">
-                        <li>
-                            <a href="{{ '/blog' | relative_url }}" class="text-base text-secondary-500 hover:text-primary-600">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ '/portfolio' | relative_url }}" class="text-base text-secondary-500 hover:text-primary-600">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ '/playground' | relative_url }}" class="text-base text-secondary-500 hover:text-primary-600">
-                                Playground
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-sm font-semibold text-secondary-600 tracking-wider uppercase">Connect</h3>
-                    <ul class="mt-4 space-y-4">
-                        <li>
-                            <a href="https://github.com/eugeneosullivan" class="text-base text-secondary-500 hover:text-primary-600">
-                                GitHub
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/your-profile" class="text-base text-secondary-500 hover:text-primary-600">
-                                LinkedIn
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <footer class="site-footer bg-gray-50 border-t border-gray-200 py-8 mt-8">
+        <div class="footer-content container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-lg font-semibold text-primary-700 mb-2">About</h3>
+                <p class="text-secondary-600">Welcome to my tech playground and blog.</p>
             </div>
-            <div class="mt-8 border-t border-secondary-200 pt-8">
-                <p class="text-base text-secondary-400 text-center">
-                    &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
-                </p>
+            <div>
+                <h3 class="text-lg font-semibold text-primary-700 mb-2">Quick Links</h3>
+                <ul class="space-y-1">
+                    <li><a href="/" class="text-secondary-600 hover:text-primary-600">Home</a></li>
+                    <li><a href="/blog" class="text-secondary-600 hover:text-primary-600">Blog</a></li>
+                    <li><a href="/portfolio" class="text-secondary-600 hover:text-primary-600">Portfolio</a></li>
+                    <li><a href="/playground" class="text-secondary-600 hover:text-primary-600">Playground</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-primary-700 mb-2">Connect</h3>
+                <div class="social-links flex gap-4">
+                    <a href="https://github.com/eugeneosullivan" target="_blank" rel="noopener noreferrer" class="text-secondary-600 hover:text-primary-600">GitHub</a>
+                    <a href="https://linkedin.com/in/eugeneosullivan" target="_blank" rel="noopener noreferrer" class="text-secondary-600 hover:text-primary-600">LinkedIn</a>
+                </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        (function() {
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const menuButtonSpans = mobileMenuButton.querySelectorAll('span');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                
+                menuButtonSpans[0].classList.toggle('rotate-45');
+                menuButtonSpans[0].classList.toggle('translate-y-1.5');
+                menuButtonSpans[1].classList.toggle('opacity-0');
+                menuButtonSpans[2].classList.toggle('-rotate-45');
+                menuButtonSpans[2].classList.toggle('-translate-y-1.5');
+            });
+        })();
+    </script>
 </body>
 </html> 

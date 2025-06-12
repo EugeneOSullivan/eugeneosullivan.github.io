@@ -3,83 +3,24 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>Welcome to My Digital Space</h1>
-        <p class="hero-subtitle">Developer, Writer, and Tech Enthusiast</p>
-    </div>
-</section>
-
-<section class="featured-content">
-    <div class="content-grid">
-        <!-- Latest Blog Posts -->
-        <div class="content-section">
-            <h2>Latest from the Blog</h2>
-            <div class="card-grid">
-                {% for post in site.posts limit:3 %}
-                <article class="card">
-                    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                    <div class="post-meta">
-                        <time datetime="{{ post.date | date_to_xmlschema }}">
-                            {{ post.date | date: "%B %d, %Y" }}
-                        </time>
-                    </div>
-                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-                    <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
-                </article>
-                {% endfor %}
-            </div>
-            <div class="section-footer">
-                <a href="{{ '/blog' | relative_url }}" class="view-all">View All Posts →</a>
-            </div>
-        </div>
-
-        <!-- Featured Portfolio Items -->
-        <div class="content-section">
-            <h2>Featured Projects</h2>
-            <div class="portfolio-grid">
-                {% for project in site.portfolio limit:3 %}
-                <article class="card portfolio-card">
-                    {% if project.image %}
-                    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="portfolio-image">
-                    {% endif %}
-                    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-                    <p>{{ project.description }}</p>
-                    <div class="portfolio-tags">
-                        {% for tag in project.tags %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-            <div class="section-footer">
-                <a href="{{ '/portfolio' | relative_url }}" class="view-all">View All Projects →</a>
-            </div>
-        </div>
-
-        <!-- Tech Playground -->
-        <div class="content-section">
-            <h2>Tech Playground</h2>
-            <div class="playground-container">
-                {% for demo in site.playground limit:2 %}
-                <article class="card playground-card">
-                    <h3><a href="{{ demo.url | relative_url }}">{{ demo.title }}</a></h3>
-                    <p>{{ demo.description }}</p>
-                    <div class="playground-preview">
-                        {% if demo.preview_url %}
-                        <iframe src="{{ demo.preview_url }}" title="{{ demo.title }}"></iframe>
-                        {% endif %}
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-            <div class="section-footer">
-                <a href="{{ '/playground' | relative_url }}" class="view-all">Explore Playground →</a>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="container mx-auto px-4 py-16 text-center">
+  <h1 class="text-4xl font-bold mb-4 text-primary-700">Welcome to Eugene O'Sullivan's Tech Playground</h1>
+  <p class="text-xl text-secondary-600 mb-8">Explore my blog, portfolio, and interactive demos.</p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+    <a href="/blog" class="group block hover:shadow-lg transition-shadow duration-300 p-6 rounded-lg bg-white border border-gray-200">
+      <h2 class="text-2xl font-semibold text-primary-700 mb-2 group-hover:text-primary-600">Blog</h2>
+      <p class="text-secondary-600">Read my latest posts and thoughts.</p>
+    </a>
+    <a href="/portfolio" class="group block hover:shadow-lg transition-shadow duration-300 p-6 rounded-lg bg-white border border-gray-200">
+      <h2 class="text-2xl font-semibold text-primary-700 mb-2 group-hover:text-primary-600">Portfolio</h2>
+      <p class="text-secondary-600">View my projects and work.</p>
+    </a>
+    <a href="/playground" class="group block hover:shadow-lg transition-shadow duration-300 p-6 rounded-lg bg-white border border-gray-200">
+      <h2 class="text-2xl font-semibold text-primary-700 mb-2 group-hover:text-primary-600">Playground</h2>
+      <p class="text-secondary-600">Interactive demos and experiments.</p>
+    </a>
+  </div>
+</div>
 
 <style>
 .hero {
