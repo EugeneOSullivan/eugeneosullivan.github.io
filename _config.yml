@@ -1,0 +1,57 @@
+# Site settings
+title: Eugene O'Sullivan
+description: Personal website, blog, and tech playground
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://eugeneosullivan.github.io" # the base hostname & protocol
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-relative-links
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/
+  playground:
+    output: true
+    permalink: /playground/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "playground"
+    values:
+      layout: "playground"
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - README.md 
