@@ -2,28 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --color-primary: theme('colors.primary.500');
-    --color-primary-dark: theme('colors.primary.600');
-    --color-primary-light: theme('colors.primary.400');
-    --color-secondary: theme('colors.secondary.500');
-    --color-text: theme('colors.secondary.900');
-    --color-text-muted: theme('colors.secondary.600');
-    --color-background: theme('colors.white');
-    --color-background-alt: theme('colors.secondary.50');
-    --color-border: theme('colors.secondary.200');
-  }
-
-  html {
-    @apply antialiased;
-  }
-
-  body {
-    @apply bg-background text-text;
-  }
-}
-
 @layer components {
   .btn {
     @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
@@ -85,8 +63,6 @@
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--bg-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -98,19 +74,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: var(--primary-color);
     text-decoration: none;
     transition: color 0.2s;
 }
 
 a:hover {
-    color: var(--accent-color);
+    /* Optionally add a Tailwind class in your HTML for hover color */
 }
 
 /* Layout */
 .site-header {
-    background-color: var(--header-bg);
-    border-bottom: 1px solid var(--border-color);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -128,7 +101,6 @@ a:hover {
 .nav-brand a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-color);
 }
 
 .nav-links {
@@ -137,12 +109,11 @@ a:hover {
 }
 
 .nav-links a {
-    color: var(--text-color);
     font-weight: 500;
 }
 
 .nav-links a.active {
-    color: var(--primary-color);
+    /* Optionally add a Tailwind class in your HTML for active color */
 }
 
 .mobile-menu-button {
@@ -157,7 +128,6 @@ a:hover {
     display: block;
     width: 25px;
     height: 2px;
-    background-color: var(--text-color);
     margin: 5px 0;
     transition: 0.3s;
 }
@@ -171,8 +141,6 @@ a:hover {
 
 /* Cards and containers */
 .card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
@@ -186,8 +154,6 @@ a:hover {
 
 /* Footer */
 .site-footer {
-    background-color: var(--footer-bg);
-    border-top: 1px solid var(--border-color);
     padding: 2rem 1rem;
     margin-top: 2rem;
 }
@@ -207,7 +173,6 @@ a:hover {
 }
 
 .social-links a {
-    color: var(--text-color);
     font-size: 1.5rem;
 }
 
@@ -219,29 +184,23 @@ a:hover {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: var(--header-bg);
         padding: 1rem;
         flex-direction: column;
         align-items: center;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 1px solid #e5e7eb;
     }
-
     .nav-links.active {
         display: flex;
     }
-
     .mobile-menu-button {
         display: block;
     }
-
     .mobile-menu-button.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
-
     .mobile-menu-button.active span:nth-child(2) {
         opacity: 0;
     }
-
     .mobile-menu-button.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
@@ -249,7 +208,6 @@ a:hover {
 
 /* Blog specific styles */
 .post-meta {
-    color: var(--secondary-color);
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
@@ -268,7 +226,6 @@ a:hover {
 
 /* Code blocks */
 pre {
-    background-color: var(--code-bg);
     padding: 1rem;
     border-radius: 0.5rem;
     overflow-x: auto;
@@ -299,7 +256,6 @@ code {
 .playground-item {
     position: relative;
     padding-top: 56.25%; /* 16:9 aspect ratio */
-    background-color: var(--card-bg);
     border-radius: 0.5rem;
     overflow: hidden;
 }
