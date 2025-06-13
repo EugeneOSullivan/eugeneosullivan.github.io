@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Restarting the Blog: Salvaging the Past
+title: "Restarting the Blog: Salvaging the Past"
 date: 2025-06-10
 author: Eugene O'Sullivan
 tags:
