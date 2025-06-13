@@ -19,14 +19,13 @@
 </head>
 <body class="min-h-screen flex flex-col bg-white text-gray-900">
     <header class="site-header sticky top-0 z-10 bg-white border-b border-gray-200 shadow-sm">
-        <div class="nav-container container mx-auto px-4 flex justify-between items-center">
+        <div class="nav-container container mx-auto px-4 flex justify-between items-center min-h-[72px]">
             <div class="nav-brand flex items-center gap-3">
                 <a href="/">
-                    <img src="/assets/images/netawakening-logo.png" alt="Net Awakening Logo" class="h-10 w-auto" style="max-height:40px;">
+                    <img src="/assets/images/netawakening_header.png" alt="Net Awakening Header" class="h-16 w-auto" style="max-height:64px;">
                 </a>
-                <a href="/" class="text-2xl font-bold text-primary-700">Eugene O'Sullivan</a>
             </div>
-            <nav class="nav-links hidden md:flex gap-6">
+            <nav class="nav-links hidden md:flex gap-6 items-center">
                 <a href="/" class="{% if page.url == '/' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Home</a>
                 <a href="/blog" class="{% if page.url contains '/blog' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Blog</a>
                 <a href="/portfolio" class="{% if page.url contains '/portfolio' %}text-primary-700 font-medium{% else %}text-secondary-600 hover:text-primary-600{% endif %}">Portfolio</a>
