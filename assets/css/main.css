@@ -340,7 +340,18 @@ code {
 
 /* Optional: add a custom class for tag links if needed */
 .tag-link {
-    @apply px-3 py-1 rounded-full bg-primary-600 text-white text-xs font-medium hover:bg-primary-700 transition-colors duration-200;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background-color: #0284c7; /* Tailwind primary-600 */
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+.tag-link:hover {
+    background-color: #0369a1; /* Tailwind primary-700 */
 }
 
 .playground-preview {
@@ -373,4 +384,14 @@ code {
     .content-grid {
         gap: 2rem;
     }
+}
+
+.site-header .nav-brand img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  max-height: 40px;
+}
+.site-header .nav-brand a.text-2xl {
+  vertical-align: middle;
 } 
