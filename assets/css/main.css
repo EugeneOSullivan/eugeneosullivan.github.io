@@ -394,4 +394,12 @@ code {
 }
 .site-header .nav-brand a.text-2xl {
   vertical-align: middle;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  position: relative;
 } 
