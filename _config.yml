@@ -7,6 +7,7 @@ url: "https://eugeneosullivan.github.io" # the base hostname & protocol
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
+plugins_dir: _plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -54,4 +55,8 @@ exclude:
   - vendor
   - .git/
   - .github/
-  - README.md 
+  - README.md
+
+# Include plugins directory
+include:
+  - _plugins 

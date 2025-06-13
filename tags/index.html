@@ -1,0 +1,22 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8 text-primary-700">Tags</h1>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {% assign tags_list = site.tags | sort %}
+        {% for tag in tags_list %}
+            {% assign tag_name = tag[0] %}
+            {% assign posts = tag[1] %}
+            <article class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300 flex items-center justify-between">
+                <a href="/tags/{{ tag_name | slugify }}" class="tag-link px-3 py-1 rounded-full bg-primary-600 text-white text-sm font-medium hover:bg-primary-700 transition-colors duration-200">
+                    {{ tag_name }}
+                </a>
+                <span class="ml-4 text-xs bg-primary-100 text-primary-700 px-2 py-0.5 rounded-full">{{ posts.size }} posts</span>
+            </article>
+        {% endfor %}
+    </div>
+</div> 
