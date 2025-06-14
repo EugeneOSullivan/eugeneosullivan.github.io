@@ -1,120 +1,43 @@
-# Eugene O'Sullivan's Personal Website
+# Chirpy Starter
 
-This is my personal website built with Jekyll, featuring a blog, portfolio, and tech playground. The site is hosted on GitHub Pages at [eugeneosullivan.github.io](https://eugeneosullivan.github.io).
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-## Features
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
 
-- **Blog**: Share thoughts, tutorials, and insights about technology and development
-- **Portfolio**: Showcase projects and work experience
-- **Tech Playground**: Interactive demos and code experiments
-- **Modern Design**: Responsive layout with dark mode support
-- **SEO Optimized**: Built-in SEO features and sitemap generation
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-## Local Development
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
 
-### Prerequisites
-
-- Ruby (version 3.0.0 or higher)
-- Bundler
-- Git
-
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/eugeneosullivan/eugeneosullivan.github.io.git
-   cd eugeneosullivan.github.io
-   ```
-
-2. Install dependencies:
-   ```bash
-   bundle install
-   ```
-
-3. Start the local server:
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-4. Visit `http://localhost:4000` in your browser
-
-## Directory Structure
-
-```
+```shell
 .
-├── _layouts/          # HTML templates
-├── _includes/         # Reusable HTML components
-├── _posts/           # Blog posts
-├── _portfolio/       # Portfolio items
-├── _playground/      # Tech playground items
-├── assets/           # Static assets (CSS, JS, images)
-│   ├── css/         # Stylesheets
-│   ├── js/          # JavaScript files
-│   └── images/      # Images and icons
-├── _config.yml       # Jekyll configuration
-└── Gemfile          # Ruby dependencies
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
 ```
 
-## Adding Content
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-### Blog Posts
+## Usage
 
-Create new blog posts in the `_posts` directory with the following format:
-```markdown
----
-layout: post
-title: "Your Post Title"
-date: YYYY-MM-DD
-categories: [category1, category2]
-tags: [tag1, tag2]
----
-
-Your post content here...
-```
-
-### Portfolio Items
-
-Add portfolio items in the `_portfolio` directory:
-```markdown
----
-layout: portfolio
-title: "Project Title"
-description: "Project description"
-image: /assets/images/portfolio/your-image.jpg
-tags: [tag1, tag2]
-github: https://github.com/username/project
-demo: https://project-demo.com
----
-
-Project content here...
-```
-
-### Playground Items
-
-Create playground demos in the `_playground` directory:
-```markdown
----
-layout: playground
-title: "Demo Title"
-description: "Demo description"
-preview_url: /playground/demos/your-demo.html
-tags: [tag1, tag2]
----
-
-Demo content here...
-```
-
-## Customization
-
-- Edit `_config.yml` to update site settings
-- Modify `assets/css/main.css` for styling changes
-- Update layouts in `_layouts/` to change page structure
-- Add new features in `assets/js/main.js`
+Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests!
+This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
