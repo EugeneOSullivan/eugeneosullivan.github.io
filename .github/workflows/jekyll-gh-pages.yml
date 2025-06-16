@@ -39,15 +39,6 @@ jobs:
           # Automatically inject baseurl in your Jekyll configuration
           enablement: true
       
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Install npm dependencies
-        run: npm ci
-      - name: Build Tailwind CSS
-        run: npm run build:css
-      
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
