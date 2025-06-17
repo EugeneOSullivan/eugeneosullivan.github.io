@@ -2,6 +2,7 @@
 layout: post
 title: "Structured Data Capture (SDC) for FHIR: Smarter Forms, Smarter Data"
 date: 2025-06-17
+categories: [blog]
 tags: [FHIR, SDC, healthcare, devdays, forms, interoperability]
 description: "How SDC for FHIR transforms form-driven data capture into reusable, interoperable healthcare workflows—insights from Firely DevDays."
 ---
@@ -33,7 +34,7 @@ In many healthcare environments, we’re still stuck with:
 
 With SDC, you get:
 
-**Dynamic forms** with fhirpath support and more :)
+**Dynamic forms** with fhirpath support and more
 **Standardized structure** aligned with FHIR  
 **Reusability** across projects and workflows  
 **Interoperability**—`QuestionnaireResponse` can be transformed into canonical FHIR resources
