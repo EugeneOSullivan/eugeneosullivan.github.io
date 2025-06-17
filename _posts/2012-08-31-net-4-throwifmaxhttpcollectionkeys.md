@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ".Net 4.0 ThrowIfMaxHttpCollectionKeysExceeded Issue"
-date: 2012-08-31
+title: ".NET 4 - ThrowIfMaxHttpCollectionKeys"
+date: 2012-08-31 12:00:00
 author: Eugene
-categories: [.Net, C#, Visual Studio]
-tags: [.Net, C#, Visual Studio]
+categories: [.NET, C#, Visual Studio]
+tags: [.NET, C#, Visual Studio]
 ---
 
 I got a bug through on one of our applications the other day, the user said the system kept on crashing on them. When I checked the error log the inner exception coming through was

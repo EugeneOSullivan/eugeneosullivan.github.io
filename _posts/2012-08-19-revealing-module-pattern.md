@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Revealing Module Pattern"
-date: 2012-08-19
+date: 2012-08-19 12:00:00
 author: Eugene
-categories: [Design Patterns, Javascript, JQuery]
-tags: [Design Patterns, Javascript, JQuery]
+categories: [Design Patterns, JavaScript, JQuery]
+tags: [Design Patterns, JavaScript, JQuery]
 ---
 
 A really handy design pattern for cleaning up your Javascript is the Revealing Module Pattern, as variables in Javascript are global by default this is a great way to create a OO style class with private variables and functions.

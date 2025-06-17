@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "JQuery Intellisense in Visual Studio"
-date: 2012-08-19
+date: 2012-08-19 12:00:00
 author: Eugene
-categories: [Javascript, JQuery, Quick Tip, Visual Studio]
-tags: [Javascript, Quick Tip, Visual Studio]
+categories: [JavaScript, JQuery, Quick Tip, Visual Studio]
+tags: [JavaScript, Quick Tip, Visual Studio]
 ---
 
 It's simple to get JQuery Intellisense in visual studio and two situations where you'd want it.

@@ -3,11 +3,11 @@ layout: post
 title: "Structured Data Capture (SDC) for FHIR: Smarter Forms, Smarter Data"
 date: 2025-06-17
 categories: [blog]
-tags: [FHIR, SDC, healthcare, devdays, forms, interoperability]
+tags: [FHIR, SDC, healthcare, devdays, Forms, interoperability]
 description: "How SDC for FHIR transforms form-driven data capture into reusable, interoperable healthcare workflows—insights from Firely DevDays."
 ---
 
-At this year’s Firely DevDays in Amsterdam, one of the standout discussions was around **Structured Data Capture (SDC)**—an underutilized gem in the FHIR ecosystem. For those of us designing modern healthcare platforms, SDC is more than just a spec—it's a blueprint for turning user-driven forms into clean, interoperable FHIR resources. I'm looking into opportunities to use this fort managing reference data within my area.
+At this year's Firely DevDays in Amsterdam, one of the standout discussions was around **Structured Data Capture (SDC)**—an underutilized gem in the FHIR ecosystem. For those of us designing modern healthcare platforms, SDC is more than just a spec—it's a blueprint for turning user-driven forms into clean, interoperable FHIR resources. I'm looking into opportunities to use this fort managing reference data within my area.
 
 ## What Is SDC for FHIR?
 
@@ -17,7 +17,7 @@ At this year’s Firely DevDays in Amsterdam, one of the standout discussions wa
 - Capture answers in a structured, codified way (**QuestionnaireResponse**)
 - Automatically convert form data into core FHIR resources (like `Patient`, `Observation`, or `Condition`)
 
-It’s centered on the `Questionnaire` and `QuestionnaireResponse` resource pair, enriched with extensions to support:
+It's centered on the `Questionnaire` and `QuestionnaireResponse` resource pair, enriched with extensions to support:
 
 - Conditional logic
 - Calculated expressions
@@ -26,11 +26,11 @@ It’s centered on the `Questionnaire` and `QuestionnaireResponse` resource pair
 
 ## Why It Matters
 
-In many healthcare environments, we’re still stuck with:
+In many healthcare environments, we're still stuck with:
 
 - **Manual data entry** (often duplicated across systems)
-- **Rigid UIs** that can’t adapt to clinical or operational context
-- **Custom form logic** that isn’t portable or standards-based
+- **Rigid UIs** that can't adapt to clinical or operational context
+- **Custom form logic** that isn't portable or standards-based
 
 With SDC, you get:
 
@@ -49,7 +49,7 @@ Some highlights from Firely DevDays included:
 
 ## Why You Should Explore It
 
-If you’re building form-driven UIs for:
+If you're building form-driven UIs for:
 
 - Admin panels (e.g., managing reference data)
 - Service-user onboarding or surveys
