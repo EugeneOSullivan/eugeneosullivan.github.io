@@ -23,7 +23,7 @@ Where the `loading_div` contains an animated GIF and the CSS centers it on the s
 
 ---
 
-*Posted in: Javascript, JQuery / Tagged: JQuery*
+*Posted in: JavaScript, JQuery / Tagged: JQuery*
 
 ---
 

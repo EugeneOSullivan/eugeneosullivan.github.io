@@ -20,7 +20,7 @@ This approach ensures that even radio buttons added after the DOM is loaded will
 
 ---
 
-*Posted in: Javascript, JQuery / Tagged: JQuery*
+*Posted in: JavaScript, JQuery / Tagged: JQuery*
 
 ---
 

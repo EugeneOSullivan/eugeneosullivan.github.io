@@ -7,7 +7,7 @@ categories: [Design Patterns, JavaScript, JQuery]
 tags: [Design Patterns, JavaScript, JQuery]
 ---
 
-A really handy design pattern for cleaning up your Javascript is the Revealing Module Pattern, as variables in Javascript are global by default this is a great way to create a OO style class with private variables and functions.
+A really handy design pattern for cleaning up your JavaScript is the Revealing Module Pattern, as variables in JavaScript are global by default this is a great way to create a OO style class with private variables and functions.
 
 In this case the function can be treated as our class initializer.
 
@@ -112,6 +112,6 @@ var feedback = function () {
 feedback.Warning("Some Text");
 ```
 
-Fantastic link for Javascript design patterns here. 
+Fantastic link for JavaScript design patterns here. 
 
 [View original on the Wayback Machine](https://web.archive.org/web/20161017025120/http://netawakening.azurewebsites.net/page/7/)

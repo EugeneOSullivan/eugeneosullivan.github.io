@@ -26,7 +26,7 @@ It's simple to get JQuery Intellisense in visual studio and two situations where
 </head>
 ```
 
-**Javascript Files**
+**JavaScript Files**
 
 Add the following file to the top of your JS file, ensure it's at the very start of the file and not below a date or comment or it won't work. (You can just drag it onto the open file from solution explorer)
 

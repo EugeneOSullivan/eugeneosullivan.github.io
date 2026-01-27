@@ -27,7 +27,7 @@ $.colorbox({
 
 ---
 
-*Posted in: Javascript, JQuery, Quick Tip / Tagged: Javascript, JQuery*
+*Posted in: JavaScript, JQuery, Quick Tip / Tagged: JavaScript, JQuery*
 
 ---
 

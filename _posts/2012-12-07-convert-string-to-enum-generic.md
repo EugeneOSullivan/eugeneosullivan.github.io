@@ -26,7 +26,7 @@ Pretty straightforward: I create two static generic methods taking type of T. In
 
 ---
 
-*Posted in: .Net, C#*
+*Posted in: .NET, C#*
 
 ---
 

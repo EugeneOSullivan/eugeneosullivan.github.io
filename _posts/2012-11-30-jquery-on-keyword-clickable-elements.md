@@ -33,7 +33,7 @@ This ensures that even dynamically created elements will have the click event bo
 
 ---
 
-*Posted in: Javascript, JQuery / Tagged: JQuery*
+*Posted in: JavaScript, JQuery / Tagged: JQuery*
 
 ---
 

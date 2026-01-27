@@ -23,7 +23,7 @@ I'll explain briefly by line:
 
 ---
 
-*Posted in: Javascript, JQuery / Tagged: Javascript, JQuery*
+*Posted in: JavaScript, JQuery / Tagged: JavaScript, JQuery*
 
 ---
 

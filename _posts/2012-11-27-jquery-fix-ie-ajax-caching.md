@@ -17,7 +17,7 @@ This simple line ensures that every AJAX request will bypass the cache and fetch
 
 ---
 
-*Posted in: Javascript, JQuery / Tagged: JQuery*
+*Posted in: JavaScript, JQuery / Tagged: JQuery*
 
 ---
 

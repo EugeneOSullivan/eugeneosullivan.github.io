@@ -13,7 +13,7 @@ I got a bug through on one of our applications the other day, the user said the 
 System.Web.HttpValueCollection.ThrowIfMaxHttpCollectionKeysExceeded()
 ```
 
-Now the form has a lot of dynamic fields in it and has the capacity to get quiet big. What I hadn't realised was that a form is limited to 1000 fields for submission currently. This was a update to .Net 4, you can read more [here](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/mitigation-request-validation) if that interests you. Anyway the fix is to extend the MaxHttpCollectionKeys value in the web.config appSettings as below:
+Now the form has a lot of dynamic fields in it and has the capacity to get quiet big. What I hadn't realised was that a form is limited to 1000 fields for submission currently. This was a update to .NET 4, you can read more [here](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/mitigation-request-validation) if that interests you. Anyway the fix is to extend the MaxHttpCollectionKeys value in the web.config appSettings as below:
 
 ```xml
 <add key="aspnet:MaxHttpCollectionKeys" value="2000" />

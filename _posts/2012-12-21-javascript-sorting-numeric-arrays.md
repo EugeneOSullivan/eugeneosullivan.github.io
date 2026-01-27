@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Javascript: Sorting Numeric Arrays"
+title: "JavaScript: Sorting Numeric Arrays"
 date: 2012-12-21
 categories: [Web Development]
 tags: [JavaScript, Arrays, Sorting]
@@ -19,7 +19,7 @@ As you can see, the `sort` function of array can take an anonymous function for 
 
 ---
 
-*Posted in: Javascript / Tagged: Javascript*
+*Posted in: JavaScript / Tagged: JavaScript*
 
 ---
 
