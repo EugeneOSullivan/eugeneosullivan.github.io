@@ -1,0 +1,220 @@
+[
+  {
+    "title": "Structured Data Capture (SDC) for FHIR: Smarter Forms, Smarter Data",
+    "url": "/posts/sdc-for-fhir/",
+    "categories": "blog",
+    "tags": "FHIR, SDC, healthcare, devdays, Forms, interoperability",
+    "date": "2025-06-17 00:00:00 +0100",
+    "content": "How SDC for FHIR transforms form-driven data capture into reusable, interoperable healthcare workflows—insights from Firely DevDays."
+  },
+  {
+    "title": "Restarting My Blog",
+    "url": "/posts/welcome-to-my-blog/",
+    "categories": "blog",
+    "tags": "welcome, restart, archive",
+    "date": "2025-06-10 00:00:00 +0100",
+    "content": "A brief note on relaunching my blog, recovering old posts, and sharing new content."
+  },
+  {
+    "title": "Oracle: Update based on join",
+    "url": "/posts/oracle-update-based-on-join/",
+    "categories": "Oracle, SQL",
+    "tags": "Oracle, SQL",
+    "date": "2014-05-15 00:00:00 +0100",
+    "content": "A guide to performing updates in Oracle using joins, with a focus on the MERGE statement for efficient table updates."
+  },
+  {
+    "title": "Oracle PL/SQL Date Manipulation",
+    "url": "/posts/oracle-plsql-date-manipulation/",
+    "categories": "Database",
+    "tags": "Oracle, PL/SQL, Date Functions",
+    "date": "2014-05-15 00:00:00 +0100",
+    "content": "A comprehensive guide to date manipulation functions in Oracle PL/SQL, with practical examples for common date operations."
+  },
+  {
+    "title": "SQL Server: Find Procedure by Text",
+    "url": "/posts/sql-server-find-procedure-by-text/",
+    "categories": "Database",
+    "tags": "SQL Server, T-SQL, Database Administration",
+    "date": "2013-08-27 00:00:00 +0100",
+    "content": "Learn how to search for stored procedures, functions, and views in SQL Server by their text content using system views and dynamic SQL."
+  },
+  {
+    "title": "Regex Fundamentals Video",
+    "url": "/posts/regex-fundamentals-video/",
+    "categories": "Web Development",
+    "tags": "JavaScript, Regular Expressions, Tutorial",
+    "date": "2013-04-18 00:00:00 +0100",
+    "content": "A video tutorial on regular expressions fundamentals, including an interactive regex tester for practicing patterns."
+  },
+  {
+    "title": "Javascript Disable Autocomplete/Autofill",
+    "url": "/posts/javascript-disable-autocomplete/",
+    "categories": "Web Development",
+    "tags": "JavaScript, Forms, Browser",
+    "date": "2013-04-18 00:00:00 +0100",
+    "content": "Various methods to disable browser autocomplete and autofill features in web forms using HTML attributes and JavaScript."
+  },
+  {
+    "title": "AngularJS in 60 Minutes",
+    "url": "/posts/angularjs-in-60-minutes/",
+    "categories": "Web Development",
+    "tags": "JavaScript, AngularJS, Tutorial",
+    "date": "2013-04-18 00:00:00 +0100",
+    "content": "A comprehensive video tutorial by Dan Wahlin that covers key features of AngularJS in about 60 minutes, perfect for developers transitioning to modern JavaScript frameworks."
+  },
+  {
+    "title": "Applying Grouping in an ASP.NET ListView",
+    "url": "/posts/applying-grouping-in-aspnet-listview/",
+    "categories": "Web Development",
+    "tags": "C#, ASP.NET, Data Binding",
+    "date": "2013-03-12 00:00:00 +0000",
+    "content": "A detailed guide to implementing grouped items in ASP.NET WebForms using nested ListViews, with complete code examples for both the ASPX page and code-behind."
+  },
+  {
+    "title": "Pluralsight Video: Putting Data Access into a Service Layer",
+    "url": "/posts/pluralsight-data-access-service-layer/",
+    "categories": "Software Architecture",
+    "tags": "C#, Design Patterns, Service Layer",
+    "date": "2013-02-27 00:00:00 +0000",
+    "content": "A free Pluralsight video tutorial on implementing a service layer pattern for data access in .NET applications."
+  },
+  {
+    "title": "Basic Modernizr",
+    "url": "/posts/basic-modernizr/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, Modernizr, Feature Detection",
+    "date": "2013-02-22 00:00:00 +0000",
+    "content": "A quick guide to using Modernizr for feature detection in browsers, with an example of adding a datepicker for unsupported input types."
+  },
+  {
+    "title": "JavaScript: Sorting Numeric Arrays",
+    "url": "/posts/javascript-sorting-numeric-arrays/",
+    "categories": "Web Development",
+    "tags": "JavaScript, Arrays, Sorting",
+    "date": "2012-12-21 00:00:00 +0000",
+    "content": "How to implement custom sorting on a numeric array in JavaScript using the sort function and a comparator."
+  },
+  {
+    "title": "Convert String to Enum and Enum to string using Generic",
+    "url": "/posts/convert-string-to-enum-generic/",
+    "categories": "Software Development",
+    "tags": "C#, .NET, Enum, Generics",
+    "date": "2012-12-07 00:00:00 +0000",
+    "content": "How to convert between strings and enums in C# using generic static methods."
+  },
+  {
+    "title": "JQuery: On Keyword for clickable elements added after DOM is loaded",
+    "url": "/posts/jquery-on-keyword-clickable-elements/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, DOM",
+    "date": "2012-11-30 00:00:00 +0000",
+    "content": "How to use jQuery&#39;s .on() method to handle events for dynamically added elements."
+  },
+  {
+    "title": "JQuery: get element ids as array",
+    "url": "/posts/jquery-get-element-ids-as-array/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, DOM",
+    "date": "2012-11-30 00:00:00 +0000",
+    "content": "How to get the collection of element IDs from an unordered list using jQuery and map()."
+  },
+  {
+    "title": "JQuery Fix for IE Ajax Caching issue",
+    "url": "/posts/jquery-fix-ie-ajax-caching/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, AJAX, Internet Explorer",
+    "date": "2012-11-27 00:00:00 +0000",
+    "content": "How to prevent AJAX caching issues in Internet Explorer using jQuery&#39;s ajaxSetup method."
+  },
+  {
+    "title": "JQuery: Show ajax loading div",
+    "url": "/posts/jquery-show-ajax-loading-div/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, AJAX, UI",
+    "date": "2012-11-21 00:00:00 +0000",
+    "content": "How to show and hide a loading graphic during AJAX requests using jQuery&#39;s ajaxStart and ajaxStop."
+  },
+  {
+    "title": "ColorBox: Call function onClosed",
+    "url": "/posts/colorbox-call-function-onclosed/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, ColorBox, UI",
+    "date": "2012-11-21 00:00:00 +0000",
+    "content": "How to use the onClosed callback in the ColorBox jQuery plugin to trigger actions after a popup closes."
+  },
+  {
+    "title": "Jquery: Add click event to dynamically created radio elements",
+    "url": "/posts/jquery-add-click-event-dynamic-radio/",
+    "categories": "Web Development",
+    "tags": "JavaScript, JQuery, DOM, Events",
+    "date": "2012-10-18 00:00:00 +0100",
+    "content": "How to add click events to radio elements created dynamically using jQuery."
+  },
+  {
+    "title": "Running a command as a scheduled task",
+    "url": "/posts/running-command-as-scheduled-task/",
+    "categories": "Windows, Automation",
+    "tags": "Windows, Scheduled Tasks, Automation, Command Line",
+    "date": "2012-10-01 00:00:00 +0100",
+    "content": "How to run a command or script as a scheduled task in Windows."
+  },
+  {
+    "title": "Oracle Savepoint",
+    "url": "/posts/oracle-savepoint/",
+    "categories": "Oracle, SQL, Toad",
+    "tags": "Oracle, Quick Tip, SQL, Toad",
+    "date": "2012-09-12 00:00:00 +0100",
+    "content": "It’s inevitable that sometimes sql scripts and stored procs can run away with themselves and get quiet complicated. A really handy feature to Rollback a script to a certain point if there’s been a ..."
+  },
+  {
+    "title": ".NET 4 - ThrowIfMaxHttpCollectionKeys",
+    "url": "/posts/net-4-throwifmaxhttpcollectionkeys/",
+    "categories": ".NET, C#, Visual Studio",
+    "tags": ".NET, C#, Visual Studio",
+    "date": "2012-08-31 13:00:00 +0100",
+    "content": "I got a bug through on one of our applications the other day, the user said the system kept on crashing on them. When I checked the error log the inner exception coming through was  System.Web.Http..."
+  },
+  {
+    "title": "TaskKill: Bulk End Process in Task Manager",
+    "url": "/posts/taskkill-bulk-end-process/",
+    "categories": "Windows",
+    "tags": "Windows",
+    "date": "2012-08-22 00:00:00 +0100",
+    "content": "A very neat command line tool I was not aware of is TaskKill. I’ve recently been having an issue with an automated task in Open Office causing the soffice.bin file to stall and cause a massive back..."
+  },
+  {
+    "title": "Oracle Trigger: Stop field being updated",
+    "url": "/posts/oracle-trigger-stop-field-being-updated/",
+    "categories": "Oracle, Quick Tip, SQL, Toad",
+    "tags": "Oracle, SQL, Toad",
+    "date": "2012-08-21 00:00:00 +0100",
+    "content": "So an unusual requirement popped up recently. A 3rd party data update was being applied to one of our data tables which was causing issues. Basically, despite the fact we needed the data sometimes ..."
+  },
+  {
+    "title": "Upsert in Oracle SQL using Merge",
+    "url": "/posts/upsert-in-oracle-sql-using-merge/",
+    "categories": "Oracle, SQL, Toad",
+    "tags": "Oracle, Quick Tip, SQL, Toad",
+    "date": "2012-08-20 00:00:00 +0100",
+    "content": "Here is a handy bit of SQL for Oracle to allow you to do an Upsert on a row.  MERGE INTO UserDetails DEST     USING(SELECT 1 AS ID FROM DUAL) src     ON (DEST.userid = &#39;john.smith&#39;)           WHEN ..."
+  },
+  {
+    "title": "Revealing Module Pattern",
+    "url": "/posts/revealing-module-pattern/",
+    "categories": "Design Patterns, JavaScript, JQuery",
+    "tags": "Design Patterns, JavaScript, JQuery",
+    "date": "2012-08-19 13:00:00 +0100",
+    "content": "A really handy design pattern for cleaning up your JavaScript is the Revealing Module Pattern, as variables in JavaScript are global by default this is a great way to create a OO style class with p..."
+  },
+  {
+    "title": "JQuery Intellisense in Visual Studio",
+    "url": "/posts/jquery-intellisense-in-visual-studio/",
+    "categories": "JavaScript, JQuery, Quick Tip, Visual Studio",
+    "tags": "JavaScript, Quick Tip, Visual Studio",
+    "date": "2012-08-19 13:00:00 +0100",
+    "content": "It’s simple to get JQuery Intellisense in visual studio and two situations where you’d want it.  Webpages (html, aspx etc.)     Ensure you have the jquery vsdoc file in your project scripts folder...."
+  }
+  
+]
+

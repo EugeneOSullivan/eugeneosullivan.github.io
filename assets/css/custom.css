@@ -1,0 +1,16 @@
+/* Custom CSS for small customisations */
+
+/* Example: centering the avatar (if the avatar is an img with class 'avatar') */
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add your custom CSS rules below */ 
+.site-title {
+    text-shadow:
+      /* regular text-shadow */
+      0 .15ch 15px var(--shadow),
+      /* text-shadow highlight */
+      0 -2px 0 var(--highlight);
+  }

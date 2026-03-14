@@ -1,0 +1,145 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://eugeneosullivan.github.io/</id>
+  <title>Eugene O'Sullivan</title>
+  <subtitle>Personal website and blog of Eugene O'Sullivan, software engineer and technical writer.</subtitle>
+  <updated>2026-03-14T10:05:42+00:00</updated>
+  <author>
+    <name>Eugene O'Sullivan</name>
+    <uri>https://eugeneosullivan.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://eugeneosullivan.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://eugeneosullivan.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Eugene O'Sullivan </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Structured Data Capture (SDC) for FHIR: Smarter Forms, Smarter Data</title>
+    <link href="https://eugeneosullivan.github.io/posts/sdc-for-fhir/" rel="alternate" type="text/html" title="Structured Data Capture (SDC) for FHIR: Smarter Forms, Smarter Data" />
+    <published>2025-06-17T00:00:00+01:00</published>
+  
+    <updated>2025-06-17T21:13:19+01:00</updated>
+  
+    <id>https://eugeneosullivan.github.io/posts/sdc-for-fhir/</id>
+    <content type="text/html" src="https://eugeneosullivan.github.io/posts/sdc-for-fhir/" />
+    <author>
+      <name>Eugene O'Sullivan</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>How SDC for FHIR transforms form-driven data capture into reusable, interoperable healthcare workflows—insights from Firely DevDays.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Restarting My Blog</title>
+    <link href="https://eugeneosullivan.github.io/posts/welcome-to-my-blog/" rel="alternate" type="text/html" title="Restarting My Blog" />
+    <published>2025-06-10T00:00:00+01:00</published>
+  
+    <updated>2025-06-16T17:45:48+01:00</updated>
+  
+    <id>https://eugeneosullivan.github.io/posts/welcome-to-my-blog/</id>
+    <content type="text/html" src="https://eugeneosullivan.github.io/posts/welcome-to-my-blog/" />
+    <author>
+      <name>Eugene O'Sullivan</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>A brief note on relaunching my blog, recovering old posts, and sharing new content.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Oracle: Update based on join</title>
+    <link href="https://eugeneosullivan.github.io/posts/oracle-update-based-on-join/" rel="alternate" type="text/html" title="Oracle: Update based on join" />
+    <published>2014-05-15T00:00:00+01:00</published>
+  
+    <updated>2014-05-15T00:00:00+01:00</updated>
+  
+    <id>https://eugeneosullivan.github.io/posts/oracle-update-based-on-join/</id>
+    <content type="text/html" src="https://eugeneosullivan.github.io/posts/oracle-update-based-on-join/" />
+    <author>
+      <name>Eugene O'Sullivan</name>
+    </author>
+
+  
+    
+    <category term="Oracle" />
+    
+    <category term="SQL" />
+    
+  
+
+  <summary>A guide to performing updates in Oracle using joins, with a focus on the MERGE statement for efficient table updates.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Oracle PL/SQL Date Manipulation</title>
+    <link href="https://eugeneosullivan.github.io/posts/oracle-plsql-date-manipulation/" rel="alternate" type="text/html" title="Oracle PL/SQL Date Manipulation" />
+    <published>2014-05-15T00:00:00+01:00</published>
+  
+    <updated>2014-05-15T00:00:00+01:00</updated>
+  
+    <id>https://eugeneosullivan.github.io/posts/oracle-plsql-date-manipulation/</id>
+    <content type="text/html" src="https://eugeneosullivan.github.io/posts/oracle-plsql-date-manipulation/" />
+    <author>
+      <name>Eugene O'Sullivan</name>
+    </author>
+
+  
+    
+    <category term="Database" />
+    
+  
+
+  <summary>A comprehensive guide to date manipulation functions in Oracle PL/SQL, with practical examples for common date operations.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>SQL Server: Find Procedure by Text</title>
+    <link href="https://eugeneosullivan.github.io/posts/sql-server-find-procedure-by-text/" rel="alternate" type="text/html" title="SQL Server: Find Procedure by Text" />
+    <published>2013-08-27T00:00:00+01:00</published>
+  
+    <updated>2013-08-27T00:00:00+01:00</updated>
+  
+    <id>https://eugeneosullivan.github.io/posts/sql-server-find-procedure-by-text/</id>
+    <content type="text/html" src="https://eugeneosullivan.github.io/posts/sql-server-find-procedure-by-text/" />
+    <author>
+      <name>Eugene O'Sullivan</name>
+    </author>
+
+  
+    
+    <category term="Database" />
+    
+  
+
+  <summary>Learn how to search for stored procedures, functions, and views in SQL Server by their text content using system views and dynamic SQL.</summary>
+
+  </entry>
+
+</feed>
+
+
